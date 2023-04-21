@@ -1,0 +1,23 @@
+Twenty-One
+
+Authors: Celia Allen (cal135) and Hugh Avery (hav13)
+
+A simple game of Twenty-One
+
+
+Instructions:
+
+Type "make clean" in terminal directory containing game, followed by "make" and "make program". Type "make program" again if running both UCFK's on the same computer.
+
+To play the game:
+
+The player who would like to start will press button one. The blue LED will light up, and zero will display on both player's LED matrices (if the IR senders and recievers are lined up properly).
+
+The player who is starting (the one with the blue led lit up) can increment the counter by one, two, or three by pushing the navswitch towards the top of the board. The player will end their turn by pushing the navswitch down. The current number will be sent to the other player, and their blue LED will light up.
+
+The players continue as such until one player must increment to twenty-one, at which point they will lose the game. The results of the game will be shown on the player's UCFK's.
+
+If the players would like to play again, then the player who would like to start will press button one, at which point their blue LED will light up, and both microcontrollers will display zero again.
+
+The game can continue as before.
+
